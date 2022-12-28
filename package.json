@@ -1,0 +1,22 @@
+{
+  "name": "hardhat-app",
+  "version": "1.0.0",
+  "description": "app for ethereum smart contract deployment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Enwerem Udochukwu, C.",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^1.0.5",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "hardhat": "^2.12.4"
+  },
+  "dependencies": {
+    "alchemy-sdk": "^2.2.4",
+    "crypto-js": "^4.1.1",
+    "ethers": "^5.7.2",
+    "express": "^4.18.2"
+  }
+}
